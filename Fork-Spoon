@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html dir="ltr"><head><meta http-equiv="Content-type" content="text/html; charset=utf-8"> <meta name="description" content="Blogger is a free blog publishing tool from Google for easily sharing your thoughts with the world. Blogger makes it simple to post text, photos and video onto your personal or team blog."> <meta name="keywords" content="blogger, blogspot, blog, blogger.com, blogspot.com, free blog, personal blog, weblog, create blog, new blog">
+<title>Blogger:
+My Sorrowful Mother
+-
+Configure Gadget</title>
+<link href="//www.blogger.com/static/v1/v-css/1683226607-new_ui_static_pages.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+      function WidgetMessages() {
+      }
+
+      WidgetMessages.UNDO = "Undo";
+
+      WidgetMessages.LINKLIST_NEW_LINK_TITLE = "New Link Title";
+
+      WidgetMessages.LINKLIST_NAME = "Name";
+
+      WidgetMessages.LINKLIST_URL = "URL";
+
+      WidgetMessages.LINKLIST_NEED_A_URL = "You must specify a Site URL.";
+
+      WidgetMessages.LINKLIST_NO_LT = "URL may not contain \x27\x3c\x27";
+
+      WidgetMessages.LINKLIST_NEED_A_PERIOD = "URL must contain at least one \x27.\x27";
+
+      WidgetMessages.LIST_EDIT_BUTTON_LABEL = "Edit";
+
+      WidgetMessages.LIST_DELETE_BUTTON_LABEL = "Delete";
+
+      WidgetMessages.LIST_ITEM_DELETED = "Item has been deleted.";
+
+      WidgetMessages.LIST_ILLEGAL_TAG = "This HTML tag is not allowed.";
+
+      WidgetMessages.LIST_ENTER_LINK_TEXT = "Enter the URL you would like to link to:";
+
+      WidgetMessages.LIST_TYPE_TEXT_FIRST = "First type the text that you want to make into a link.";
+
+      WidgetMessages.LIST_SAVE_BUTTON_LABEL = "Save";
+
+      WidgetMessages.SIV_INVALID_URL = "Invalid image url.";
+
+      WidgetMessages.SIV_NO_IMAGE = "Please specify an image.";
+
+      WidgetMessages.MALFORMED_COLOR_INPUT = "Color must be six hexadecimal digits (ex. #000099)."
+
+      WidgetMessages.USERNAME_NOT_FOUND = "Username not found"
+
+      WidgetMessages.PUBLIC_ALBUMS_NOT_FOUND = "No public albums found"
+
+      WidgetMessages.VALIDATION_NOT_POSITIVE_INT = "This must be a positive integer."
+
+    </script>
+<script type="text/javascript">
+    function LayoutsMessages() {
+    }
+
+    LayoutsMessages.SAVING = "Saving...";
+
+    LayoutsMessages.SAVING_CHANGES = "Saving changes...";
+
+    LayoutsMessages.DELETING = "Deleting...";
+
+    LayoutsMessages.FIELD_CANNOT_BE_BLANK = "Required field must not be left blank";
+
+    LayoutsMessages.MUST_SPECIFY_A_NUMBER = "Must specify a number.";
+
+    LayoutsMessages.NUMBER_TOO_SMALL = "Number too small: must be greater than: ";
+
+    LayoutsMessages.NUMBER_TOO_LARGE = "Number too large: must be smaller than: ";
+
+    LayoutsMessages.INVALID_COLOR = "Not a valid color";
+
+    LayoutsMessages.CHOOSE_A_COLOR = "Choose a color for";
+
+    LayoutsMessages.CHOOSE_A_FONT = "Choose a font for";
+
+    
+        LayoutsMessages.ADD_PAGE_ELEMENT = "Add a Gadget";
+      
+
+
+
+    LayoutsMessages.TEF_UNLOAD_MESSAGE = "You will lose changes you made to the template.";
+
+    LayoutsMessages.TEF_DISCARD_CHANGES = "Discard all unsaved changes?";
+
+    LayoutsMessages.TEF_DISCARD_CHANGES_LONG = "This will discard changes you made to the template. Continue?";
+
+    LayoutsMessages.TEF_WARN_REVERT_WIDGET_TEMPLATES = "This will discard all changes to widget templates. Your widget data will remain unchanged. Continue?";
+    LayoutsMessages.SERVER_ERROR = "A server error occurred. Please try again later.";
+  </script>
+<script type="text/javascript" src="//www.blogger.com/static/v1/widgets/3011567098-widget-config.js"></script>
+
+<script type="text/javascript" language="javascript"><!--
+   function initWidgetFramework() {
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '8647573029773076915';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8647573029773076915','//www.blogger.com/widget?blogID\x3d8647573029773076915','8647573029773076915');
+_WidgetManager._SetPageActionUrl('//www.blogger.com/display?blogID\x3d8647573029773076915','APq4FmDKhAuEt0mgMjDyo9i4_niIm4ihrLh8KzjVh24CJJn_6uMBELGBdvzXx-H_hv1Bgr3NPnQbEDI0REBgv5QktGEVLAseA1GQ1m4obefqp3nZWBM6EbI\x3d','AOuZoY4WM5cRuL7nBiCmK1SxLlTbf2Dj1w:1361556842951');
+_WidgetManager._SetWidgetRefreshUrl('//notdeadyet-mysorrowfulmother.blogspot.com/refresh');
+_WidgetManager._RegisterWidget('_GadgetView', new _WidgetInfo('Gadget4', 'footer-2-2'));
+_WidgetManager._SetConfigWin('Gadget4', window);
+}// --></script>
+
+<script type="text/javascript" language="Javascript">
+    initWidgetFramework();
+  </script>
+<script type="text/javascript" language="Javascript">
+    function removeWidget(opt_cancelHandler) {
+      var removeMessage = "Are you sure you want to remove this page element from your page?";
+      if (confirm(removeMessage)) {
+        _WidgetManager._DeleteWidgetFromPage(
+            "Gadget4",
+            "Gadget",
+            self);
+      } else if (opt_cancelHandler) {
+        opt_cancelHandler();
+      }
+      return false;
+    }
+  </script></head>
+<body class="lang_en"><div style="width: 100%; position:absolute"><div class="status-msg-outer"><span id="status-message" class="status-msg"><span id="status-message-inner"></span></span></div></div>
+<div id="header-outer"><div id="header"><a href="/" id="logo" title="Blogger home"><img src="//www.blogger.com/img/blogger-logo-small.png" alt="Blogger"></a></div></div>
+<div class="kd-appbar"><h1 class="bg-appname">Configure Gadget</h1></div>
+<form action="//www.blogger.com/widget?blogID=8647573029773076915" method="POST" name="config"><input type="hidden" name="security_token" value="AOuZoY5YUteb86Vr1lmjAsk2UHcNQhaq3g:1361556842738"><input type="hidden" name="widgetId" value="Gadget4">
+<input type="hidden" name="widgetType" value="Gadget">
+<input type="hidden" name="sectionId" value="footer-2-2" id="sectionId">
+<input type="hidden" name="action" value="configure">
+<input type="hidden" name="gadgetUrl" value="http://hosting.gmodules.com/ig/gadgets/file/111311123200664007084/calendar.xml">
+<input type="hidden" name="reqLocale" value="en">
+<div id="outer-wrap" class="contents"><table border="0" cellspacing="0" cellpadding="0"><tr><th class="item-key"><label for="title">Title</label></th>
+<td class="item-form"><div class="errorbox-good"><input type="text" name="title" value="Daily Calendar" size="35" id="title" onblur="updatePreview();">
+<div id="errormessage_title"></div></div></td></tr>
+<tr><th class="item-key"><label for="height">Height</label></th>
+<td class="item-form"><div class="errorbox-good"><input type="text" name="height" value="220" size="3" id="height" onblur="updatePreview();">
+px
+<div id="errormessage_height"></div></div></td></tr>
+</table>
+<br>
+<div align="center"><span class="preview-text"><strong>Preview</strong> - <a href="javascript:updatePreview()">Update</a>
+<br><br></span>
+<script type="text/javascript">
+        if (!window.gadgets || !gadgets.rpc) {
+          document.write('<script type="text/javascript"' +
+                  'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3dfb8be11a62e8ad0f86d416241fced6ce\x26sv\x3d9">' +
+                  '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/8647573029773076915/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/8647573029773076915/comments/default";
+          
+          holder.currentBlogUrl = "http://notdeadyet-mysorrowfulmother.blogspot.com/";
+          holder.currentBlogId = "8647573029773076915";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<iframe src="//www-blogger-opensocial.googleusercontent.com/gadgets/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/111311123200664007084/calendar.xml&amp;container=blogger&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=99898f2e2730b6c0&amp;libs=core&amp;parent=http://www.blogger.com/&amp;mid=4#st=e%3DAFlCd0VC2LoMpdMVBqvtKuxATrhI2OXIdG4zNR8vJ%252FU%252BPc8LuWxlMERob%252BfQNm%252F90bZxIsbtlVskem%252FV3e05HtXMCaKBdl5oe0cdYfIcKD9pSza0V7akrDuWm%252BM3eXG1ElXquf3a%252FVrB%26c%3Dblogger&amp;rpctoken=4744462212872719470" frameborder="0" style="width: 100%; display: block" height="220" id="preview-iframe" name="preview-iframe"></iframe>
+<script type="text/javascript">
+        gadgets.rpc.setRelayUrl("preview-iframe", '//www-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+        gadgets.rpc.setAuthToken("preview-iframe", "4744462212872719470");
+      </script></div>
+<div class="r"></div>
+<div id="buttons" class="btn-container" style="margin-top:20px;"><script type="text/javascript">
+  document.write("\x3ca id\x3d\x22save-button\x22 class\x3d\x22kd-button bg-primary\x22 href\x3d\x22javascript:void(0)\x22 target\x3d\x22\x22 onclick\x3d\x22if (this.className.indexOf(\x26quot;ubtn-disabled\x26quot;) \x3d\x3d -1) {_GadgetConfig._SetConfigurationOptions(); return false;} return false;\x22\x3eSave\x3c/a\x3e");
+</script>
+
+<script type="text/javascript">
+  document.write("\x3ca id\x3d\x22cancel-button\x22 class\x3d\x22kd-button\x22 href\x3d\x22javascript:void(0)\x22 target\x3d\x22\x22 onclick\x3d\x22if (this.className.indexOf(\x26quot;ubtn-disabled\x26quot;) \x3d\x3d -1) {window.close(); return false;} return false;\x22\x3eCancel\x3c/a\x3e");
+</script>
+
+<script type="text/javascript">
+  document.write("\x3ca id\x3d\x22delete-button\x22 class\x3d\x22kd-button\x22 href\x3d\x22javascript:void(0)\x22 target\x3d\x22\x22 onclick\x3d\x22if (this.className.indexOf(\x26quot;ubtn-disabled\x26quot;) \x3d\x3d -1) {removeWidget(); return false;} return false;\x22\x3eRemove\x3c/a\x3e");
+</script>
+
+
+<div class="clear">&nbsp;</div></div></div></form>
+<script type="text/javascript">
+        function updatePreview() {
+        
+        
+          _GadgetConfig._UpdatePreview();
+        
+        }
+
+        
+      </script>
+<script type="text/javascript">
+  
+  var gaqPrefix = '';
+  if (window.lastSetAccountCount) {
+    gaqPrefix= 'b' + window.lastSetAccountCount + '.';
+    window.lastSetAccountCount++;
+  }
+  var _gaq = _gaq || [];
+  _gaq.push([gaqPrefix + '_setAccount', "UA-18003-7"]);
+  _gaq.push([gaqPrefix + '_trackPageview' ]);
+  
+     _gaq.push([gaqPrefix + '_setAllowAnchor', true]);
+  
+  
+    _gaq.push([gaqPrefix + '_setDetectClientInfo', false]);
+  >
+
+  
+    window.lastSetAccountCount = 1;
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+    })();
+
+    function trackBloggerPageView(opt_url) {
+      try {
+        _gaq.push([gaqPrefix + '_trackPageview', opt_url]);
+      } catch(err) {}
+    }
+  
+</script></body></html
