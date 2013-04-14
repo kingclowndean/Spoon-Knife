@@ -1,4 +1,529 @@
-associated with it. The document tree is shown below.
+
+last updated Friday
+GitHub:Gist
+
+    Discover Gists
+
+    kingclowndean
+
+    1
+
+public
+kingclowndean / gist:4248310
+Last updated 3 months ago
+
+    Gist Detail
+    Revisions 1
+    Stars 1
+
+    Clone this gist
+    Embed this gist
+    Link to this gist
+
+gistfile1.txt
+
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid ada20ccd-f5c6-29ef-d026-954ed05c2465
+INFO: LLViewerRegion::setSimulatorFeatures: <llsd>
+<map>
+<key>DynamicPathfindingEnabled</key>
+<boolean>1</boolean>
+<key>MeshRezEnabled</key>
+<boolean>1</boolean>
+<key>MeshUploadEnabled</key>
+<boolean>1</boolean>
+<key>MeshXferEnabled</key>
+<boolean>1</boolean>
+<key>PhysicsMaterialsEnabled</key>
+<boolean>1</boolean>
+<key>PhysicsShapeTypes</key>
+<map>
+<key>convex</key>
+<boolean>1</boolean>
+<key>none</key>
+<boolean>1</boolean>
+<key>prim</key>
+<boolean>1</boolean>
+</map>
+</map>
+</llsd>
+ 
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 11409 exp
+ecting 11354 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 11557 exp
+ecting 11416 from 216.82.41.240:13002
+INFO: LLViewerThrottleGroup::sendToSim: Sending throttle settings, total BW 3000
+.0
+INFO: LLViewerThrottle::updateDynamicThrottle: Tightening network throttle to 14
+336000.0
+INFO: display_stats: FPS: 2.50
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 11721 exp
+ecting 11634 from 216.82.41.240:13002
+INFO: LLVOAvatar::debugAvatarRezTime: REZTIME: [ 0sec ] Avatar 'lubblylittledogg
+y' cloud RuthTimer 0 Notification AvatarRezArrivedNotification : avatar arrived
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+WARNING: LLVOAvatar::getTargetAttachmentPoint: Object attachment point invalid:
+127
+INFO: `anonymous-namespace'::LLEventPollResponder::LLEventPollResponder: LLEvent
+Poll initialized with sender 216.82.48.157:13000
+INFO: `anonymous-namespace'::LLEventPollResponder::start: LLEventPollResponder::
+start <3> https://sim10091.agni.lindenlab.com:12043/cap/9ed3cace-faf7-1fb2-33fa-
+2cdb6e19fecb
+INFO: LLHTTPSender::setSender: LLHTTPSender::setSender 216.82.48.157:13000
+INFO: LLVOAvatar::processAvatarAppearance: Avatar 'lubblylittledoggy' cloud pro
+cessAvatarAppearance start d90e7dd3-ff0f-4899-ab88-645292d3bdf9 first? 1 self? 0
+ 
+INFO: LLVOAvatar::onFirstTEMessageReceived: Avatar 'lubblylittledoggy' cloud
+INFO: LLVOAvatar::processAvatarAppearance: Avatar 'SappaDallagio' gray processA
+vatarAppearance start dd790378-2a08-4804-abab-cd5722230968 first? 0 self? 0
+INFO: LLVOAvatar::processAvatarAppearance: Number of params in AvatarAppearance
+msg (218) does not match number of tweakable params in avatar xml file (251). P
+rocessing what we can. object: dd790378-2a08-4804-abab-cd5722230968
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 12725 exp
+ecting 12517 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 949 expec
+ting 933 from 216.82.48.185:13012
+INFO: LLInventoryModel::addItem: Adding broken link [ name: Hugsies Freebie Peni
+s v3 (Normal) By HUGSaLOT 1 itemID: 22e54e6a-c543-5ece-cc3e-37432a4e8de5 assetID
+: b226037a-9b60-99a2-a987-7abcdcfef68b ) parent: 8ca3761f-d9ca-9555-5c22-28ea60
+464675
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 12997 exp
+ecting 12959 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 13161 exp
+ecting 13038 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 998 expec
+ting 977 from 216.82.48.185:13012
+INFO: LLAppViewer::idle: Kills on unknown objects: 298
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 13342 exp
+ecting 13277 from 216.82.41.240:13002
+INFO: LLViewerThrottleGroup::sendToSim: Sending throttle settings, total BW 3000
+.0
+INFO: LLViewerThrottle::updateDynamicThrottle: Tightening network throttle to 13
+312000.0
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 13596 exp
+ecting 13567 from 216.82.41.240:13002
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.45.55:12035 resent
+1 packets
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.48.67:13008 resent
+1 packets
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.42.79:13002 resent
+1 packets
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.48.157:13000 resen
+t 8 packets
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.48.185:13012 resen
+t 1 packets
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.41.240:13002 resen
+t 8324 packets
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid 1b9f25f0-4f39-341e-46aa-95e6e05bff34
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid 1b9f25f0-4f39-341e-46aa-95e6e05bff34
+INFO: LLVivoxVoiceClient::sessionCreateResponse: Session.Create response receive
+d (success), session handle is 7
+WARNING: LLVivoxProtocolParser::processResponse: Unknown event type SessionGroup
+UpdatedEvent
+INFO: LLVivoxVoiceClient::sessionAddedEvent: session sip:confctl-104686679@bhr.v
+ivox.com, alias , name handle 7
+WARNING: LLVivoxVoiceClient::mediaStreamUpdatedEvent: unknown state 6
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid f9819719-d0ab-10fb-b2fb-6d3ae2f544aa
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid f9819719-d0ab-10fb-b2fb-6d3ae2f544aa
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid d53e497b-b64c-ffb3-2495-145d1458db7a
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid f068c066-a01c-9c8a-5c34-ea5b1b4ec08c
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid d53e497b-b64c-ffb3-2495-145d1458db7a
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid f068c066-a01c-9c8a-5c34-ea5b1b4ec08c
+INFO: LLViewerRegion::setSimulatorFeatures: <llsd>
+<map>
+<key>DynamicPathfindingEnabled</key>
+<boolean>1</boolean>
+<key>MeshRezEnabled</key>
+<boolean>1</boolean>
+<key>MeshUploadEnabled</key>
+<boolean>1</boolean>
+<key>MeshXferEnabled</key>
+<boolean>1</boolean>
+<key>PhysicsMaterialsEnabled</key>
+<boolean>1</boolean>
+<key>PhysicsShapeTypes</key>
+<map>
+<key>convex</key>
+<boolean>1</boolean>
+<key>none</key>
+<boolean>1</boolean>
+<key>prim</key>
+<boolean>1</boolean>
+</map>
+</map>
+</llsd>
+ 
+INFO: LLAppViewer::idle: Kills on unknown objects: 2
+INFO: LLAppViewer::idle: Unknown object updates: 2
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid 816b0a52-8c17-739c-160f-29e4c632fa48
+WARNING: LLInvFVBridge::createBridge: object asset has inventory type texture on
+uuid 816b0a52-8c17-739c-160f-29e4c632fa48
+INFO: LLViewerThrottleGroup::sendToSim: Sending throttle settings, total BW 3000
+.0
+INFO: LLViewerThrottle::updateDynamicThrottle: Tightening network throttle to 12
+287999.0
+INFO: display_stats: FPS: 1.80
+INFO: LLVOAvatar::debugAvatarRezTime: REZTIME: [ 38sec ] Avatar 'cheezer925' gra
+y RuthTimer 38 Notification AvatarRezLeftNotification : left sometime after decl
+ouding
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 14572 exp
+ecting 14554 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 14737 exp
+ecting 14654 from 216.82.41.240:13002
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+INFO: LLSpeakerVolumeStorage::load: Loading stored speaker volumes from: C:\User
+s\King Clown\AppData\Roaming\SecondLife\morabits_resident\volume_settings.xml
+INFO: LLVivoxVoiceClient::joinedAudioSession: added self as participant "morabit
+s Resident" (dc35a49a-bde7-490b-924e-f66836ca6b40)
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 15639 exp
+ecting 15611 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 1271 expe
+cting 1253 from 216.82.48.185:13012
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 15890 exp
+ecting 15653 from 216.82.41.240:13002
+INFO: LLVivoxVoiceClient::buildLocalAudioUpdates: Setting speaker volume to 50
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLViewerThrottleGroup::sendToSim: Sending throttle settings, total BW 3000
+.0
+INFO: LLViewerThrottle::updateDynamicThrottle: Tightening network throttle to 11
+263999.0
+INFO: LLVivoxVoiceClient::sendFriendsListUpdates: Checking vivox buddy list agai
+nst friends list...
+INFO: LLVivoxVoiceClient::sendFriendsListUpdates: Sending friend list updates...
+ 
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 655 expec
+ting 631 from 216.82.48.157:13000
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 16549 exp
+ecting 16237 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 1356 expe
+cting 1315 from 216.82.48.185:13012
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 16750 exp
+ecting 16710 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 17087 exp
+ecting 17053 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 17435 exp
+ecting 17292 from 216.82.41.240:13002
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 383c317b-e5ae-b4f2-5a2a-e2709a52eefe
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 43dde1b6-7719-765b-1139-592d02a3b726
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 5d4a48f6-dd5b-5d98-4832-bde834d670fb
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 69bc440a-721d-3de6-98be-f54a3260377d
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 7caaf77e-e4fc-bfb6-8bcf-7f3b5a97ce7a
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 2b024b6d-c333-097f-34e6-64233b77bd06
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 2ed13887-2a66-5264-d635-a33cb5031b87
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 32e81b8c-319c-1d76-bf0c-0e0781f165ef
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 361469a0-dfc8-a553-cd2a-1221d29a2909
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 36d2cbfa-a8ba-0f76-3058-424b1263da69
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 3af35a0d-0015-eed4-3f7f-0fa7056233ab
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 42ca7796-6aa7-7099-0f5c-1fb823a52ab0
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 43513e54-54eb-86c2-711d-363f93b33b3b
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 43fa7c15-b588-5b4c-cc01-cf4012b87460
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 49aaddb5-ba43-a470-8516-b0cbfe8800d1
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 4ce31011-a68b-074a-63ed-4af89972ca87
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 4d6290b4-a1a4-b430-94ef-d0afbc0f298b
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 4df04398-830d-fe16-4cc5-f0121fc79f9c
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 4fe2dca5-204b-80d2-c87d-bc6c91039275
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 5146c219-7fdb-4f4d-5d53-45987200f3ef
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 537a3d94-f0c6-173b-0cdb-09aaa6f5b909
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 5a74eda4-5341-a8fe-158e-2310e11bb388
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 5ab45922-c2c1-d626-6b48-2c1c5f8a6c19
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 5e1a6ed3-86d6-50f6-7aab-763b1752adc3
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 5f0d4d90-669a-b116-1bdb-3cc492dc0238
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 61348898-e34e-c3ab-b1d8-f1baf045f0de
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 61569c95-3abb-3abf-c8a2-9f53bd4183be
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 660861a4-a7e0-fff5-37cc-53b5c8195aa2
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 6748214a-6d11-84e1-5262-f44a906f4bb6
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 687ff0a4-b27a-45c8-3f80-f36520a6a659
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 69cec14c-6b0e-e77f-d452-a95b1ac9d44d
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 6c78053d-7af4-ad5f-2db5-3e3e61e9d32d
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 6ccd5302-2b99-81b9-45ba-404121173d01
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 6ce34db0-4a05-710c-a640-dfeb19d49eb9
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 71703e58-f045-62ca-8db7-57fa2359f7e7
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 776fbf9c-4cf8-82c3-1075-b73714a4aeea
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 785d1c6b-2d98-a697-a8a2-5aab0f8b2408
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 7f49216c-7129-fc51-d3ce-727a5bcb6e56
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 80c593fd-bc44-9450-bbf3-81fc8edfe043
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 8111533b-e1a3-ef86-138d-285414fbc849
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 82bf9a98-baf2-4095-7f74-f99578dd85d5
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 87ba1be5-2fe3-c774-fc26-c217384f012b
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 8a1febfd-6a73-c217-57e9-194e632b0a70
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 8cf8d974-bfe8-72f7-253e-795ca4e0841f
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 90841244-5e84-0ebc-6f75-17f6a1242586
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 909ce8fc-5dee-5309-bcc6-8fdee8cbdb01
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 92d7d0b1-2a8c-43a5-d418-5b2e77676bf2
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 9f290d1e-210a-ef16-be73-19371de2df9e
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 9f406f43-42c4-883b-cf29-c7ef95d9bc92
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: a1f7897b-9170-b56c-c811-cefef9d125ef
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: a4bfd417-a512-e4ef-79e1-3a9222cbb541
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: a86c231c-3120-6019-c767-1c96fd82b24a
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: ab12fea0-3f85-1649-bd48-88c6a47ecc65
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: ac61dfe8-9652-7e9b-0da4-1fda1d0c9868
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: adc1894b-e80e-4bdd-a3d6-8a36aabab59a
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: adf7d434-1202-0477-b1cb-6b2459a6a9bf
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: b14d1f51-2601-8e5f-a7b1-72833a4d5706
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: b3393aa6-0827-0ed6-b7dd-01132a62a924
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: b61e8547-660b-7a72-9c37-95b6fbb7fc98
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: bc1135d1-0b17-794a-33da-8150553c45a8
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: c3dea66e-fdff-ed89-12ee-94c92d4613a3
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: cca326ba-5fa2-1d2c-b81c-7f28ea83b171
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: d05230ce-d176-c586-9cee-13faafef10e2
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: d057d8e7-4c53-1293-a739-fc1970be2446
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: d154d7da-5a5d-c708-e23d-04da59103f9a
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: d2ebcee6-64cb-6fb5-cc03-9e2e9bd92189
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: d3ea3ed2-ddea-c33f-3ad4-5d8bba9f9caa
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: d46be1ba-0a92-2724-0925-5603ac7ed93f
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: d8d0b591-0e04-4852-159f-51cf2418b46a
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: d8f127ec-3e62-8276-0186-93a72cdc74a1
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: da8db395-bdd1-5122-b80c-5d640cf32d52
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: db092932-daac-f996-3be0-02f786bbaa03
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: db6e5236-9e09-08ea-2376-af23594078be
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: dc6106ef-999c-9913-bcdb-e1310ebf8eb9
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: dd013372-fb79-af26-a1a4-3ff76b8d162d
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: e22a631c-efb1-8b43-a562-5db109e3340c
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: e3269bb1-8ac7-1bc2-a92c-a4fcab6d626c
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: e674dee7-0708-5b07-bce5-082ee86e12c6
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: e6e29619-f2f4-cbf2-38fa-982be0f6a17f
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: e743ee84-edfe-969d-26fe-c45b25fb56ff
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: e81bdf69-5e85-11aa-1f90-fbe2013d842e
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: eb2b42af-ff1e-2ef2-700e-8e6d31955851
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: eb49e39a-0c52-a87f-34b2-11a46f3348d8
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: fb8d062f-cec0-5c6b-e6a5-b3d1dd4f6ba2
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: fd2882c9-ca76-c527-4f2d-17c93b686515
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 383c317b-e5ae-b4f2-5a2a-e2709a52eefe
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 43dde1b6-7719-765b-1139-592d02a3b726
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 5d4a48f6-dd5b-5d98-4832-bde834d670fb
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 69bc440a-721d-3de6-98be-f54a3260377d
+WARNING: LLInventoryFetchItemsObserver::changed: Fetcher timed out when fetching
+inventory item UUID: 7caaf77e-e4fc-bfb6-8bcf-7f3b5a97ce7a
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+INFO: LLViewerThrottleGroup::sendToSim: Sending throttle settings, total BW 3000
+.0
+INFO: LLViewerThrottle::updateDynamicThrottle: Tightening network throttle to 10
+239999.0
+INFO: display_stats: FPS: 1.80
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+INFO: LLAudioEngine::startNextTransfer: Getting asset data for: efecb571-5aa7-94
+bf-c70c-f9597d668126
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 19528 exp
+ecting 19446 from 216.82.41.240:13002
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+INFO: LLAppViewer::idle: Kills on unknown objects: 1
+INFO: LLAppViewer::idle: Unknown object updates: 4
+INFO: LLAudioEngine::startNextTransfer: Getting asset data for: beedfdf9-516f-fb
+6a-7125-e43d39eef1b2
+INFO: LLViewerThrottleGroup::sendToSim: Sending throttle settings, total BW 3000
+.0
+INFO: LLViewerThrottle::updateDynamicThrottle: Tightening network throttle to 92
+15999.0
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 20611 exp
+ecting 20538 from 216.82.41.240:13002
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 20939 exp
+ecting 20892 from 216.82.41.240:13002
+INFO: LLAppViewer::idleNetwork: Maxed out number of messages per frame at 400
+INFO: LLCircuitData::checkPacketInID: packet_out_of_order - got packet 21230 exp
+ecting 21078 from 216.82.41.240:13002
+INFO: LLViewerObjectList::cleanupReferences: Object 6dfeec77-2d8d-003c-6171-5014
+289e97f8 already on dead list!
+INFO: display_stats: FPS: 2.20
+INFO: LLAppViewer::idle: Kills on unknown objects: 164
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLViewerThrottleGroup::sendToSim: Sending throttle settings, total BW 3000
+.0
+INFO: LLViewerThrottle::updateDynamicThrottle: Tightening network throttle to 81
+91998.5
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.48.157:13000 resen
+t 12 packets
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.48.185:13012 resen
+t 2 packets
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.41.240:13002 resen
+t 2959 packets
+INFO: LLAppViewer::idle: Kills on unknown objects: 56
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLViewerThrottleGroup::sendToSim: Sending throttle settings, total BW 3000
+.0
+INFO: LLViewerThrottle::updateDynamicThrottle: Tightening network throttle to 71
+67998.0
+WARNING: LLTrans::findString: ONCE: Missing String in strings.xml: [Request for
+special powers failed. This request has been logged.]
+INFO: display_stats: FPS: 1.80
+INFO: LLAppViewer::idle: Unknown object updates: 2
+WARNING: LLAvatarNameResponder::result: LLAvatarNameResponder::result 1 unresolv
+ed ids; expires in 120.0 seconds
+WARNING: LLAvatarNameResponder::result: LLAvatarNameResponder::result failed id
+00000000-0000-0000-0000-000000000000
+INFO: LLAppViewer::idle: Kills on unknown objects: 1
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: display_stats: FPS: 2.10
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: display_stats: FPS: 2.10
+INFO: LLAppViewer::idle: Kills on unknown objects: 298
+INFO: LLAppViewer::idle: Unknown object updates: 4
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.48.157:13000 resen
+t 10 packets
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.41.240:13002 resen
+t 3 packets
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: display_stats: FPS: 1.80
+INFO: LLAppViewer::idle: Kills on unknown objects: 1
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLAppViewer::idle: Kills on unknown objects: 27
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: display_stats: FPS: 1.70
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLAppViewer::idle: Kills on unknown objects: 1
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: display_stats: FPS: 2.10
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.48.157:13000 resen
+t 5 packets
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.41.240:13002 resen
+t 2 packets
+INFO: LLAppViewer::idle: Kills on unknown objects: 56
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: display_stats: FPS: 1.60
+INFO: LLAppViewer::idle: Kills on unknown objects: 1
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: display_stats: FPS: 1.80
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLAppViewer::idle: Kills on unknown objects: 180
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: display_stats: FPS: 1.90
+INFO: LLAppViewer::idle: Kills on unknown objects: 118
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLCircuitData::dumpResendCountAndReset: Circuit: 216.82.48.157:13000 resen
+t 1 packets
+INFO: LLAppViewer::idle: Unknown object updates: 2
+WARNING: LLVivoxVoiceClient::mediaStreamUpdatedEvent: unknown state 7
+INFO: display_stats: FPS: 1.20
+INFO: LLAppViewer::idle: Kills on unknown objects: 28
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLVivoxVoiceClient::sessionRemovedEvent: handle 7
+INFO: LLVivoxVoiceClient::sessionCreateResponse: Session.Create response receive
+d (success), session handle is 12
+WARNING: LLVivoxProtocolParser::processResponse: Unknown event type SessionGroup
+UpdatedEvent
+INFO: LLVivoxVoiceClient::sessionAddedEvent: session sip:confctl-104686679@bhr.v
+ivox.com, alias , name handle 12
+WARNING: LLVivoxVoiceClient::mediaStreamUpdatedEvent: unknown state 6
+INFO: LLAppViewer::idle: Unknown object updates: 2
+INFO: LLVivoxVoiceClient::joinedAudioSession: added self as participant "" (dc35
+a49a-bde7-490b-924e-f66836ca6b40)
+INFO: display_stats: FPS: 1.20
+INFO: LLVivoxVoiceClient::buildLocalAudioUpdates: Setting speaker volume to 50
+INFO: LLAppViewer::idle: Kills on unknown objects: 1
+INFO: LLAppViewer::idle: Unknown object updates: 4
+INFO: display_stats: FPS: 1.90
+INFO: LLAppViewer::idle: Unknown object updates: 2
+
+    Write
+    Previewassociated with it. The document tree is shown below.
       <Error><Code>AccessDenied</Code><Message>Access Denied</Message>
 <RequestId>0CB21595672557D0</RequestId>
 <HostId>
