@@ -60,4 +60,303 @@ Double repositories all the way across the sky!<br/>
 <a href="http://help.github.com/fork-a-repo/">What does it mean?</a>
 </div>
 </body>
+</html><html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="A complete toolset for enterprise, web, and mobile development. Enabling you to edit, collaborate and run your projects from any device.">
+    <script type="text/javascript">
+      window._timestampStart = Date.now();
+      function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1);
+            if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+        }
+        return "";
+      }
+      if (!getCookie('token')) {
+        var projectHash = '';
+        if (window.location.hash) {
+          projectHash = '?project=' + window.location.hash.substring(1);
+        }
+
+        window._redirecting = true;
+        window.location = 'https://codeanywhere.com/login' + projectHash;
+      }
+    </script>
+    <script type="text/javascript" src="loader.js"></script>
+    <script type="text/javascript" src="dist/polyfill.min.js"></script>
+    <script type="text/javascript" src="dist/bcsocket.js"></script>
+    <script type="text/javascript" src="dist/jslights.js?v=0.6.7"></script>
+    <style>
+      .loaderItem {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1b1817;
+        z-index: 99999;
+      }
+      
+      .loaderAll {
+        position: absolute;
+        width: 100%;
+        height: 100%
+      }
+      
+      .image-end {
+        width: 128px;
+        height: 128px;
+        position: absolute;
+        z-index: 1;
+        background: url('dist/styles/home/glowend1.png') no-repeat;
+        background-size: 128px
+      }
+      
+      .image-start {
+        width: 128px;
+        height: 128px;
+        position: absolute;
+        z-index: 1;
+        background: url('dist/styles/home/glowstart1.png') no-repeat;
+        background-size: 128px
+      }
+      
+      .loading-logo {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: url(dist/styles/home/logo.png);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        z-index: 3
+      }
+      
+      .radial-progress {
+        width: 128px;
+        height: 128px;
+        position: relative;
+        background-color: #7e3f98;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        margin: -64px;
+        overflow: hidden;
+        -webkit-animation: spin 3s linear infinite;
+        -moz-animation: spin 3s linear infinite;
+        animation: spin 3s linear infinite
+      }
+      
+      @keyframes "spinning" {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(180deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+      @-moz-keyframes spin {
+        from { -moz-transform: rotate(0deg); }
+        to { -moz-transform: rotate(360deg); }
+      }
+      @-webkit-keyframes spin {
+        from { -webkit-transform: rotate(0deg); }
+        to { -webkit-transform: rotate(360deg); }
+      }
+      @keyframes spin {
+        from {transform:rotate(0deg); }
+        to {transform:rotate(360deg); }
+      }
+      
+      .radial-progress .image-end {
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform 0.5s;
+        transition: -ms-transform 0.5s;
+        transition: transform 0.5s;
+        border-radius: 5%
+      }
+      
+      .radial-progress .circle .mask,
+      .radial-progress .circle .fill,
+      .radial-progress .circle .shadow {
+        width: 128px;
+        height: 128px;
+        position: absolute;
+        border-radius: 50%
+      }
+      
+      .radial-progress .circle .shadow {
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) inset
+      }
+      
+      .radial-progress .circle .mask,
+      .radial-progress .circle .fill {
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform 0.5s;
+        transition: -ms-transform 0.5s;
+        transition: transform 0.5s;
+        border-radius: 50%
+      }
+      
+      .radial-progress .circle .mask {
+        clip: rect(0px, 128px, 128px, 64px)
+      }
+      
+      .radial-progress .circle .mask .fill {
+        clip: rect(0px, 64px, 128px, 0px);
+        background-color: #DA3EE0
+      }
+      
+      .radial-progress .inset {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        width: 122px;
+        height: 122px;
+        position: absolute;
+        margin-left: 3px;
+        margin-top: 3px;
+        background-color: #1b1817;
+        border-radius: 50%
+      }
+      
+
+     body {
+        background-color: #1b1817;
+        position: fixed!important;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .radial-progress[data-progress="0"] .circle .mask.full,.radial-progress[data-progress="0"] .circle .fill{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}.radial-progress[data-progress="0"] .circle .fill.fix{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}.radial-progress[data-progress="0"] .image-end{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}.radial-progress[data-progress="0"] .inset .percentage .numbers{width:57px}.radial-progress[data-progress="4"] .circle .mask.full,.radial-progress[data-progress="4"] .circle .fill{-webkit-transform:rotate(7.2deg);-ms-transform:rotate(7.2deg);transform:rotate(7.2deg)}.radial-progress[data-progress="4"] .circle .fill.fix{-webkit-transform:rotate(14.4deg);-ms-transform:rotate(14.4deg);transform:rotate(14.4deg)}.radial-progress[data-progress="4"] .image-end{-webkit-transform:rotate(14.4deg);-ms-transform:rotate(14.4deg);transform:rotate(14.4deg)}.radial-progress[data-progress="4"] .inset .percentage .numbers{width:285px}.radial-progress[data-progress="8"] .circle .mask.full,.radial-progress[data-progress="8"] .circle .fill{-webkit-transform:rotate(14.4deg);-ms-transform:rotate(14.4deg);transform:rotate(14.4deg)}.radial-progress[data-progress="8"] .circle .fill.fix{-webkit-transform:rotate(28.8deg);-ms-transform:rotate(28.8deg);transform:rotate(28.8deg)}.radial-progress[data-progress="8"] .image-end{-webkit-transform:rotate(28.8deg);-ms-transform:rotate(28.8deg);transform:rotate(28.8deg)}.radial-progress[data-progress="8"] .inset .percentage .numbers{width:513px}.radial-progress[data-progress="12"] .circle .mask.full,.radial-progress[data-progress="12"] .circle .fill{-webkit-transform:rotate(21.6deg);-ms-transform:rotate(21.6deg);transform:rotate(21.6deg)}.radial-progress[data-progress="12"] .circle .fill.fix{-webkit-transform:rotate(43.2deg);-ms-transform:rotate(43.2deg);transform:rotate(43.2deg)}.radial-progress[data-progress="12"] .image-end{-webkit-transform:rotate(43.2deg);-ms-transform:rotate(43.2deg);transform:rotate(43.2deg)}.radial-progress[data-progress="12"] .inset .percentage .numbers{width:741px}.radial-progress[data-progress="16"] .circle .mask.full,.radial-progress[data-progress="16"] .circle .fill{-webkit-transform:rotate(28.8deg);-ms-transform:rotate(28.8deg);transform:rotate(28.8deg)}.radial-progress[data-progress="16"] .circle .fill.fix{-webkit-transform:rotate(57.6deg);-ms-transform:rotate(57.6deg);transform:rotate(57.6deg)}.radial-progress[data-progress="16"] .image-end{-webkit-transform:rotate(57.6deg);-ms-transform:rotate(57.6deg);transform:rotate(57.6deg)}.radial-progress[data-progress="16"] .inset .percentage .numbers{width:969px}.radial-progress[data-progress="20"] .circle .mask.full,.radial-progress[data-progress="20"] .circle .fill{-webkit-transform:rotate(36deg);-ms-transform:rotate(36deg);transform:rotate(36deg)}.radial-progress[data-progress="20"] .circle .fill.fix{-webkit-transform:rotate(72deg);-ms-transform:rotate(72deg);transform:rotate(72deg)}.radial-progress[data-progress="20"] .image-end{-webkit-transform:rotate(72deg);-ms-transform:rotate(72deg);transform:rotate(72deg)}.radial-progress[data-progress="20"] .inset .percentage .numbers{width:1197px}.radial-progress[data-progress="24"] .circle .mask.full,.radial-progress[data-progress="24"] .circle .fill{-webkit-transform:rotate(43.2deg);-ms-transform:rotate(43.2deg);transform:rotate(43.2deg)}.radial-progress[data-progress="24"] .circle .fill.fix{-webkit-transform:rotate(86.4deg);-ms-transform:rotate(86.4deg);transform:rotate(86.4deg)}.radial-progress[data-progress="24"] .image-end{-webkit-transform:rotate(86.4deg);-ms-transform:rotate(86.4deg);transform:rotate(86.4deg)}.radial-progress[data-progress="24"] .inset .percentage .numbers{width:1425px}.radial-progress[data-progress="28"] .circle .mask.full,.radial-progress[data-progress="28"] .circle .fill{-webkit-transform:rotate(50.4deg);-ms-transform:rotate(50.4deg);transform:rotate(50.4deg)}.radial-progress[data-progress="28"] .circle .fill.fix{-webkit-transform:rotate(100.8deg);-ms-transform:rotate(100.8deg);transform:rotate(100.8deg)}.radial-progress[data-progress="28"] .image-end{-webkit-transform:rotate(100.8deg);-ms-transform:rotate(100.8deg);transform:rotate(100.8deg)}.radial-progress[data-progress="28"] .inset .percentage .numbers{width:1653px}.radial-progress[data-progress="32"] .circle .mask.full,.radial-progress[data-progress="32"] .circle .fill{-webkit-transform:rotate(57.6deg);-ms-transform:rotate(57.6deg);transform:rotate(57.6deg)}.radial-progress[data-progress="32"] .circle .fill.fix{-webkit-transform:rotate(115.2deg);-ms-transform:rotate(115.2deg);transform:rotate(115.2deg)}.radial-progress[data-progress="32"] .image-end{-webkit-transform:rotate(115.2deg);-ms-transform:rotate(115.2deg);transform:rotate(115.2deg)}.radial-progress[data-progress="32"] .inset .percentage .numbers{width:1881px}.radial-progress[data-progress="36"] .circle .mask.full,.radial-progress[data-progress="36"] .circle .fill{-webkit-transform:rotate(64.8deg);-ms-transform:rotate(64.8deg);transform:rotate(64.8deg)}.radial-progress[data-progress="36"] .circle .fill.fix{-webkit-transform:rotate(129.6deg);-ms-transform:rotate(129.6deg);transform:rotate(129.6deg)}.radial-progress[data-progress="36"] .image-end{-webkit-transform:rotate(129.6deg);-ms-transform:rotate(129.6deg);transform:rotate(129.6deg)}.radial-progress[data-progress="36"] .inset .percentage .numbers{width:2109px}.radial-progress[data-progress="40"] .circle .mask.full,.radial-progress[data-progress="40"] .circle .fill{-webkit-transform:rotate(72deg);-ms-transform:rotate(72deg);transform:rotate(72deg)}.radial-progress[data-progress="40"] .circle .fill.fix{-webkit-transform:rotate(144deg);-ms-transform:rotate(144deg);transform:rotate(144deg)}.radial-progress[data-progress="40"] .image-end{-webkit-transform:rotate(144deg);-ms-transform:rotate(144deg);transform:rotate(144deg)}.radial-progress[data-progress="40"] .inset .percentage .numbers{width:2337px}.radial-progress[data-progress="44"] .circle .mask.full,.radial-progress[data-progress="44"] .circle .fill{-webkit-transform:rotate(79.2deg);-ms-transform:rotate(79.2deg);transform:rotate(79.2deg)}.radial-progress[data-progress="44"] .circle .fill.fix{-webkit-transform:rotate(158.4deg);-ms-transform:rotate(158.4deg);transform:rotate(158.4deg)}.radial-progress[data-progress="44"] .image-end{-webkit-transform:rotate(158.4deg);-ms-transform:rotate(158.4deg);transform:rotate(158.4deg)}.radial-progress[data-progress="44"] .inset .percentage .numbers{width:2565px}.radial-progress[data-progress="48"] .circle .mask.full,.radial-progress[data-progress="48"] .circle .fill{-webkit-transform:rotate(86.4deg);-ms-transform:rotate(86.4deg);transform:rotate(86.4deg)}.radial-progress[data-progress="48"] .circle .fill.fix{-webkit-transform:rotate(172.8deg);-ms-transform:rotate(172.8deg);transform:rotate(172.8deg)}.radial-progress[data-progress="48"] .image-end{-webkit-transform:rotate(172.8deg);-ms-transform:rotate(172.8deg);transform:rotate(172.8deg)}.radial-progress[data-progress="48"] .inset .percentage .numbers{width:2793px}.radial-progress[data-progress="52"] .circle .mask.full,.radial-progress[data-progress="52"] .circle .fill{-webkit-transform:rotate(93.6deg);-ms-transform:rotate(93.6deg);transform:rotate(93.6deg)}.radial-progress[data-progress="52"] .circle .fill.fix{-webkit-transform:rotate(187.2deg);-ms-transform:rotate(187.2deg);transform:rotate(187.2deg)}.radial-progress[data-progress="52"] .image-end{-webkit-transform:rotate(187.2deg);-ms-transform:rotate(187.2deg);transform:rotate(187.2deg)}.radial-progress[data-progress="52"] .inset .percentage .numbers{width:3021px}.radial-progress[data-progress="56"] .circle .mask.full,.radial-progress[data-progress="56"] .circle .fill{-webkit-transform:rotate(100.8deg);-ms-transform:rotate(100.8deg);transform:rotate(100.8deg)}.radial-progress[data-progress="56"] .circle .fill.fix{-webkit-transform:rotate(201.6deg);-ms-transform:rotate(201.6deg);transform:rotate(201.6deg)}.radial-progress[data-progress="56"] .image-end{-webkit-transform:rotate(201.6deg);-ms-transform:rotate(201.6deg);transform:rotate(201.6deg)}.radial-progress[data-progress="56"] .inset .percentage .numbers{width:3249px}.radial-progress[data-progress="60"] .circle .mask.full,.radial-progress[data-progress="60"] .circle .fill{-webkit-transform:rotate(108deg);-ms-transform:rotate(108deg);transform:rotate(108deg)}.radial-progress[data-progress="60"] .circle .fill.fix{-webkit-transform:rotate(216deg);-ms-transform:rotate(216deg);transform:rotate(216deg)}.radial-progress[data-progress="60"] .image-end{-webkit-transform:rotate(216deg);-ms-transform:rotate(216deg);transform:rotate(216deg)}.radial-progress[data-progress="60"] .inset .percentage .numbers{width:3477px}.radial-progress[data-progress="64"] .circle .mask.full,.radial-progress[data-progress="64"] .circle .fill{-webkit-transform:rotate(115.2deg);-ms-transform:rotate(115.2deg);transform:rotate(115.2deg)}.radial-progress[data-progress="64"] .circle .fill.fix{-webkit-transform:rotate(230.4deg);-ms-transform:rotate(230.4deg);transform:rotate(230.4deg)}.radial-progress[data-progress="64"] .image-end{-webkit-transform:rotate(230.4deg);-ms-transform:rotate(230.4deg);transform:rotate(230.4deg)}.radial-progress[data-progress="64"] .inset .percentage .numbers{width:3705px}.radial-progress[data-progress="68"] .circle .mask.full,.radial-progress[data-progress="68"] .circle .fill{-webkit-transform:rotate(122.4deg);-ms-transform:rotate(122.4deg);transform:rotate(122.4deg)}.radial-progress[data-progress="68"] .circle .fill.fix{-webkit-transform:rotate(244.8deg);-ms-transform:rotate(244.8deg);transform:rotate(244.8deg)}.radial-progress[data-progress="68"] .image-end{-webkit-transform:rotate(244.8deg);-ms-transform:rotate(244.8deg);transform:rotate(244.8deg)}.radial-progress[data-progress="68"] .inset .percentage .numbers{width:3933px}.radial-progress[data-progress="72"] .circle .mask.full,.radial-progress[data-progress="72"] .circle .fill{-webkit-transform:rotate(129.6deg);-ms-transform:rotate(129.6deg);transform:rotate(129.6deg)}.radial-progress[data-progress="72"] .circle .fill.fix{-webkit-transform:rotate(259.2deg);-ms-transform:rotate(259.2deg);transform:rotate(259.2deg)}.radial-progress[data-progress="72"] .image-end{-webkit-transform:rotate(259.2deg);-ms-transform:rotate(259.2deg);transform:rotate(259.2deg)}.radial-progress[data-progress="72"] .inset .percentage .numbers{width:4161px}.radial-progress[data-progress="76"] .circle .mask.full,.radial-progress[data-progress="76"] .circle .fill{-webkit-transform:rotate(136.8deg);-ms-transform:rotate(136.8deg);transform:rotate(136.8deg)}.radial-progress[data-progress="76"] .circle .fill.fix{-webkit-transform:rotate(273.6deg);-ms-transform:rotate(273.6deg);transform:rotate(273.6deg)}.radial-progress[data-progress="76"] .image-end{-webkit-transform:rotate(273.6deg);-ms-transform:rotate(273.6deg);transform:rotate(273.6deg)}.radial-progress[data-progress="76"] .inset .percentage .numbers{width:4389px}.radial-progress[data-progress="80"] .circle .mask.full,.radial-progress[data-progress="80"] .circle .fill{-webkit-transform:rotate(144deg);-ms-transform:rotate(144deg);transform:rotate(144deg)}.radial-progress[data-progress="80"] .circle .fill.fix{-webkit-transform:rotate(288deg);-ms-transform:rotate(288deg);transform:rotate(288deg)}.radial-progress[data-progress="80"] .image-end{-webkit-transform:rotate(288deg);-ms-transform:rotate(288deg);transform:rotate(288deg)}.radial-progress[data-progress="80"] .inset .percentage .numbers{width:4617px}.radial-progress[data-progress="84"] .circle .mask.full,.radial-progress[data-progress="84"] .circle .fill{-webkit-transform:rotate(151.2deg);-ms-transform:rotate(151.2deg);transform:rotate(151.2deg)}.radial-progress[data-progress="84"] .circle .fill.fix{-webkit-transform:rotate(302.4deg);-ms-transform:rotate(302.4deg);transform:rotate(302.4deg)}.radial-progress[data-progress="84"] .image-end{-webkit-transform:rotate(302.4deg);-ms-transform:rotate(302.4deg);transform:rotate(302.4deg)}.radial-progress[data-progress="84"] .inset .percentage .numbers{width:4845px}.radial-progress[data-progress="88"] .circle .mask.full,.radial-progress[data-progress="88"] .circle .fill{-webkit-transform:rotate(158.4deg);-ms-transform:rotate(158.4deg);transform:rotate(158.4deg)}.radial-progress[data-progress="88"] .circle .fill.fix{-webkit-transform:rotate(316.8deg);-ms-transform:rotate(316.8deg);transform:rotate(316.8deg)}.radial-progress[data-progress="88"] .image-end{-webkit-transform:rotate(316.8deg);-ms-transform:rotate(316.8deg);transform:rotate(316.8deg)}.radial-progress[data-progress="88"] .inset .percentage .numbers{width:5073px}.radial-progress[data-progress="92"] .circle .mask.full,.radial-progress[data-progress="92"] .circle .fill{-webkit-transform:rotate(165.6deg);-ms-transform:rotate(165.6deg);transform:rotate(165.6deg)}.radial-progress[data-progress="92"] .circle .fill.fix{-webkit-transform:rotate(331.2deg);-ms-transform:rotate(331.2deg);transform:rotate(331.2deg)}.radial-progress[data-progress="92"] .image-end{-webkit-transform:rotate(331.2deg);-ms-transform:rotate(331.2deg);transform:rotate(331.2deg)}.radial-progress[data-progress="92"] .inset .percentage .numbers{width:5301px}.radial-progress[data-progress="96"] .circle .mask.full,.radial-progress[data-progress="96"] .circle .fill{-webkit-transform:rotate(172.8deg);-ms-transform:rotate(172.8deg);transform:rotate(172.8deg)}.radial-progress[data-progress="96"] .circle .fill.fix{-webkit-transform:rotate(345.6deg);-ms-transform:rotate(345.6deg);transform:rotate(345.6deg)}.radial-progress[data-progress="96"] .image-end{-webkit-transform:rotate(345.6deg);-ms-transform:rotate(345.6deg);transform:rotate(345.6deg)}.radial-progress[data-progress="96"] .inset .percentage .numbers{width:5529px}.radial-progress[data-progress="100"] .circle .mask.full,.radial-progress[data-progress="100"] .circle .fill{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.radial-progress[data-progress="100"] .circle .fill.fix{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}.radial-progress[data-progress="100"] .image-end{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}.radial-progress[data-progress="100"] .inset .percentage .numbers{width:5757px}
+    </style>
+
+  <script type="text/javascript">
+    function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0; i<ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1);
+          if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+      }
+      return "";
+    }
+    if (!getCookie('token')) {
+      var projectHash = '';
+      if (window.location.hash) {
+        projectHash = '?project=' + window.location.hash.substring(1);
+      }
+
+      window._redirecting = true;
+      window.location = 'https://codeanywhere.com/login' + projectHash;
+    } else {
+      //jsLights.monitor = true;
+      setTimeout(function() {
+        window.baseUrl = window.baseUrl || '';
+        window.scriptVer = window.scriptVer || '';
+        var head = document.getElementsByTagName('head')[0]; 
+        var script = document.createElement('script'); 
+        script.type = 'text/javascript'; 
+        script.src = baseUrl + 'dist/ca.min.js?v=' + scriptVer; 
+        head.appendChild(script);
+      }, 0);
+    }
+
+    jsLights.after(['CA.app.userData', 'CA.app.project'], function() {
+      CA.app.userData.get('activeProject', function(doc) {
+        CA.app.project.openProject({
+          viewstateActive: (doc) ? doc.project : false
+        });
+      });
+    })
+  </script>
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32" href="/favicon.ico">
+  </head>
+  <body>
+    
+
+      <div class="loaderItem">
+
+        <div class="loading-logo"></div>
+        <div class="loaderAll">
+
+          <div class="radial-progress" id="initialradial" data-progress="0">
+
+            <div class="image-start"></div>
+            <div class="image-end"></div>
+            <div class="circle">
+              <div class="mask full">
+                <div class="fill"></div>
+              </div>
+
+              <div class="mask half">
+                <div class="fill"></div>
+                <div class="fill fix"></div>
+              </div>
+              <div class="shadow"></div>
+            </div>
+            <div class="inset">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-4540843-22', 'Editor');
+      ga('send', 'pageview');
+
+    </script>
+    <script>
+      var stepInterval;
+      window._loaderStatus = 0;
+      function updateTo(from, to, duration) {
+        var currentProgress = 0;
+        var frameRate = 400;
+        var step = (to - from) / (duration / frameRate);
+
+        stepInterval = setInterval( function() {
+          if (currentProgress + step > to) {
+            clearInterval(stepInterval);
+            return;
+          }
+          currentProgress += step;
+          
+          var floored = Math.floor(currentProgress); 
+          if (floored % 4 === 0)
+            updateEl(floored);
+          
+        }, frameRate);
+      }
+      function updateEl(perc) {
+        
+        var el = document.getElementById("initialradial");
+        if (el) {
+          window._loaderStatus = perc;
+          el.setAttribute("data-progress", perc);
+        } else {
+          clearInterval(stepInterval);
+        }
+      }
+      updateTo(0, 30, 6000);
+    </script>
+  </body>
 </html>
+
